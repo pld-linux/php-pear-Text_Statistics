@@ -1,9 +1,10 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          Text
-%define         _subclass       Statistics
+%define		_class		Text
+%define		_subclass	Statistics
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_pearname} - Compute readability indexes for documents
+
+Summary:	%{_pearname} - compute readability indexes for documents
 Summary(pl):	%{_pearname} - obliczanie wska¼ników czytelnictwa dokumentów
 Name:		php-pear-%{_pearname}
 Version:	1.0
