@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - Compute readability indexes for documents
-Summary(pl):	%{_pearname} -
+Summary(pl):	%{_pearname} - obliczanie wska¼ników czytelnictwa dokumentów
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	1
@@ -24,6 +24,8 @@ documents.
 This class has in PEAR status: %{_status}.
 
 %description -l pl
+Klasa Text_Statistics pozwala na obliczanie wska¼ników czytelnictwa
+dla dokumentów tekstowych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
