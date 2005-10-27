@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - obliczanie wska¼ników czytelnictwa dokumentów
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	3
+Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	4714f16104fe67ff728f581e6dfcd563
