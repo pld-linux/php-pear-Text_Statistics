@@ -8,8 +8,7 @@ Summary:	%{_pearname} - compute readability indexes for documents
 Summary(pl):	%{_pearname} - obliczanie wska¼ników czytelnictwa dokumentów
 Name:		php-pear-%{_pearname}
 Version:	1.0
-Release:	3
-Epoch:		0
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	4714f16104fe67ff728f581e6dfcd563
@@ -59,7 +58,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc install.log
-%dir %{php_pear_dir}/%{_class}
 %{php_pear_dir}/.registry/*.reg
 %{php_pear_dir}/%{_class}/*.php
 
