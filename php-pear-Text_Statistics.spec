@@ -14,6 +14,7 @@ Group:		Development/Languages/PHP
 # Source0-md5:	4714f16104fe67ff728f581e6dfcd563
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Text_Statistics/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 BuildArch:	noarch
