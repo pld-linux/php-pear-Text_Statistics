@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - compute readability indexes for documents
-Summary(pl.UTF-8):   %{_pearname} - obliczanie wskaźników czytelnictwa dokumentów
+Summary(pl.UTF-8):	%{_pearname} - obliczanie wskaźników czytelnictwa dokumentów
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	4
@@ -35,7 +35,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
