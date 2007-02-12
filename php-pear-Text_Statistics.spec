@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - compute readability indexes for documents
-Summary(pl):	%{_pearname} - obliczanie wska糿ik體 czytelnictwa dokument體
+Summary(pl.UTF-8):   %{_pearname} - obliczanie wska藕nik贸w czytelnictwa dokument贸w
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	4
@@ -27,15 +27,15 @@ documents.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa Text_Statistics pozwala na obliczanie wska糿ik體 czytelnictwa
-dla dokument體 tekstowych.
+%description -l pl.UTF-8
+Klasa Text_Statistics pozwala na obliczanie wska藕nik贸w czytelnictwa
+dla dokument贸w tekstowych.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -44,7 +44,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
