@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - compute readability indexes for documents
 Summary(pl.UTF-8):	%{_pearname} - obliczanie wskaźników czytelnictwa dokumentów
 Name:		php-pear-%{_pearname}
-Version:	1.0
-Release:	5
+Version:	1.0.1
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	4714f16104fe67ff728f581e6dfcd563
+# Source0-md5:	53557e3e52d9d725162a6f8d77a7c94d
 URL:		http://pear.php.net/package/Text_Statistics/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -38,8 +38,8 @@ Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
-AutoReq:	no
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
