@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Text
 %define		_subclass	Statistics
 %define		_status		stable
